@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+
+# Data and Results (Generated)
+data/
+models/
+
+# OS
+.DS_Store
