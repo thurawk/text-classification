@@ -83,7 +83,20 @@ The project uses a synthetic labeled text dataset with 5 categories:
 cd text-classification
 ```
 
-1. Install required packages:
+2. Create and activate a virtual environment (recommended):
+
+```bash
+# Create virtual environment
+python3 -m venv venv
+
+# Activate virtual environment (Mac/Linux)
+source venv/bin/activate
+
+# Activate virtual environment (Windows)
+# venv\Scripts\activate
+```
+
+3. Install required packages:
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn joblib
@@ -100,7 +113,7 @@ pip install -r requirements.txt
 ### Run the Main ML Script
 
 ```bash
-python text_classification.py
+python3 text_classification.py
 ```
 
 The script will:
@@ -117,14 +130,6 @@ The script will:
 7. Generate visualizations
 8. Save trained models
 9. Demonstrate predictions on example texts
-
-### Run Original Script (Basic Text Processing)
-
-```bash
-python src/text_processing.py
-```
-
-This runs the original basic text processing script.
 
 ## 📈 Results
 
