@@ -1,6 +1,8 @@
 # 📝 Text Classification with Machine Learning
 
-## 📌 Overview
+![Model Comparison](results/model_comparison.png)
+
+## 📌 Project Overview
 
 This project demonstrates **supervised machine learning** for text classification using multiple algorithms to classify text into topics (Technology, Science, Business, Sports, Health). The project covers the complete NLP and ML pipeline from data preparation to model deployment, including feature extraction, model training, evaluation, and visualization.
 
@@ -83,7 +85,7 @@ The project uses a synthetic labeled text dataset with 5 categories:
 cd text-classification
 ```
 
-2. Create and activate a virtual environment (recommended):
+1. Create and activate a virtual environment (recommended):
 
 ```bash
 # Create virtual environment
@@ -96,7 +98,7 @@ source venv/bin/activate
 # venv\Scripts\activate
 ```
 
-3. Install required packages:
+1. Install required packages:
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn joblib
@@ -187,23 +189,23 @@ The script will:
 
 ## 📁 Project Structure
 
- ```bash
- text-classification/
- ├── data/
- │   └── text_dataset.csv          # Labeled dataset
- ├── models/
- │   ├── text_classifier.pkl       # Saved best model
- │   ├── tfidf_vectorizer.pkl      # Saved vectorizer
- │   └── label_encoder.pkl         # Saved label encoder
- ├── results/
- │   ├── confusion_matrix.png      # Confusion matrix visualization
- │   ├── model_comparison.png      # Model performance comparison
- │   ├── feature_importance.png    # Top features per category
- │   └── category_distribution.png # Dataset distribution
- ├── text_classification.py        # Main ML script
- ├── requirements.txt              # Project dependencies
- └── README.md
- ```
+```bash
+text-classification/
+├── data/
+│   └── text_dataset.csv          # Labeled dataset
+├── models/
+│   ├── text_classifier.pkl       # Saved best model
+│   ├── tfidf_vectorizer.pkl      # Saved vectorizer
+│   └── label_encoder.pkl         # Saved label encoder
+├── results/
+│   ├── confusion_matrix.png      # Confusion matrix visualization
+│   ├── model_comparison.png      # Model performance comparison
+│   ├── feature_importance.png    # Top features per category
+│   └── category_distribution.png # Dataset distribution
+├── text_classification.py        # Main ML script
+├── requirements.txt              # Project dependencies
+└── README.md
+```
 
 ## 🎓 Learning Outcomes
 
